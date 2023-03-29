@@ -8,18 +8,14 @@
 </head>
 <body>
     
-    <a href="/home" onclick="route()">Home</a>
+    <a href="/" onclick="route()">Home</a>
     <a href="/about" onclick="route()">About</a>
-    <a href="/contato" onclick="route()">Contact</a>
+    <a href="/contact" onclick="route()">Contact</a>
     <a href="/404" onclick="route()">404</a>
 
+    <div id="app"></div>
 
-    <script>
-        function route(event){
-            event = event || window.event
-            event.preventDefault()
-        }
 
-    </script>
+    <script src="js/index.js" type="module"></script>
 </body>
 </html>
